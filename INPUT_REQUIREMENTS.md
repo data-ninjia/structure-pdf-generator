@@ -42,7 +42,7 @@ G001    MQA01   Photovoltaic Generator System 1
 Every F1 entry is one of two types:
 
 ### 3a. Section header
-- **Letters only, 2–5 characters, no digits**
+- **Letters only, 3 characters, no digits**
 - Marks the start of a new subsystem group
 - Its description is the section title
 
@@ -98,8 +98,6 @@ MDA13 "Rotor blade system C"    ← NOT grouped
 - Recommended max length: **60 characters**
 - Numbers used for **enumeration** (System 1, Bay 3) are fine —
   they drive the grouping logic
-- Avoid using numbers for anything other than enumeration
-  (e.g. voltage levels like `33 kV` are fine and kept as-is)
 
 ---
 
